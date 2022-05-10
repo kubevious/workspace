@@ -1,0 +1,48 @@
+#!/bin/bash
+
+export REPOSITORIES=(
+    "ui"
+    "backend"
+    "collector"
+    "parser"
+    "helm"
+    "dependencies"
+
+    "ui-framework"
+    "ui-components"
+    "ui-middleware"
+    "ui-alerts"
+    "ui-dev-tools"
+    "ui-properties"
+    "ui-rule-engine" 
+    "ui-search"
+    "ui-time-machine"
+    "ui-browser"
+    "ui-validator-config"
+    "ui-worldvious"
+    "http-client"
+    "helper-backend"
+    "helpers"
+    "helper-mysql"
+    "helper-cache"
+    "helper-easy-data-store" 
+    "helper-redis"
+    "helper-websocket-server"
+    "helper-websocket-client"
+    "worldvious-client"
+    "entity-meta"
+    "state-registry"
+    "data-models"
+    "agent-middleware"
+    "helper-logic-processor"
+    "kubik"
+    "helper-rule-engine"
+
+    "kubevious"
+    "workspace"
+    "rules-library"
+
+    "portable"
+)
+
+# echo "REPOSITORIES: ${REPOSITORIES[@]}"
