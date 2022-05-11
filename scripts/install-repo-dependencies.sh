@@ -2,6 +2,11 @@
 
 echo "*** Yarn Install..." 
 yarn
+RESULT=$?
+if [ $RESULT -ne 0 ]; then
+  echo "YARN FAILED."
+  exit 1;
+fi
 
 echo "*** Processing Local Dev Links..." 
 for MODULE_NAME in "${LOCAL_DEV_LINK_DEPENDENCIES[@]}"; do
