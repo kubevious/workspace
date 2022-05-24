@@ -83,6 +83,15 @@ if [[ -d "${SOURCE_DIR}/node_modules" ]] ; then
   copyToDest "${SOURCE_DIR}/node_modules" "${DEST_DIR}/node_modules"
 fi
 
+if [[ -f ${DEST_ROOT}/post_install.sh ]]; then
+  echo "*** Running Post Install Script..." 
+  ${DEST_ROOT}/post_install.sh
+  RESULT=$?
+  if [ $RESULT -ne 0 ]; then
+    echo ">>> Post Install Script FAILED."
+    exit 1;
+  fi
+fi
 
 
 export TRACKER_FILE_NAME=$(echo "${PACKAGE_NAME}" | sed 's/@//g')
