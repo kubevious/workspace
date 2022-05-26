@@ -6,6 +6,7 @@ export REPOSITORIES=(
     "collector"
     "parser"
     "helm"
+    "guard"
     "dependencies"
 
     "ui-framework"
