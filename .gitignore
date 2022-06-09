@@ -66,3 +66,5 @@ typings/
 
 # Helm output
 kubevious.yaml
+
+dist/
