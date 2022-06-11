@@ -77,6 +77,7 @@ export const UI_MODULE_DEPS_DELETE : string[] = [
     'rollup-plugin-babel',
     'rollup-plugin-commonjs',
     'rollup-plugin-json',
+    'rollup-plugin-scss',
 
     'babel-core',
     'babel-runtime',
