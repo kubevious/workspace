@@ -8,6 +8,7 @@ export REPOSITORIES=(
     "helm"
     "guard"
     "dependencies"
+    "scripts"
 
     "ui-framework"
     "ui-components"
