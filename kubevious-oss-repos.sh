@@ -44,6 +44,7 @@ export REPOSITORIES=(
     "kubevious"
     "workspace"
     "rules-library"
+    "demos"
 
     "portable"
 )
