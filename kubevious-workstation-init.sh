@@ -14,3 +14,6 @@ npm install -g yarn
 
 echo "*** Install NPM-CHECK-UPDATES..."
 npm install -g npm-check-updates
+
+echo "*** Install TTAB..."
+npm install -g ttab
