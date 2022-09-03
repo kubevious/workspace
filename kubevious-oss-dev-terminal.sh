@@ -14,7 +14,7 @@ ttab -t "COLLECTOR" -d "${REPOS_DIR}/collector.git" echo -e "\n**** KUBEVIOUS CO
 
 ttab -t "PARSER" -d "${REPOS_DIR}/parser.git" echo -e "\n**** KUBEVIOUS PARSER ****\n1) ./prepare.sh\n2a) ./run-dev-mock.sh\n2b) ./run-dev-k8s.sh\n"
 
-ttab -t "GUARD" -d "${REPOS_DIR}/guard.git" echo -e "\n**** KUBEVIOUS GUARD ****\n1) ./prepare.sh\n2a) ./run-dev-mock.sh\n2b) ./run-dev.sh\n"
+ttab -t "GUARD" -d "${REPOS_DIR}/guard.git" echo -e "\n**** KUBEVIOUS GUARD ****\n1) ./prepare.sh\n2) ./run-dev.sh\n"
 
 ttab -t "GUARD-VALIDATE" -d "${REPOS_DIR}/guard.git/sample" echo -e "\n**** KUBEVIOUS GUARD VALIDATOR RUNNER ****\n1a) ./validate-simple.sh\n1b) ./validate-helm.sh\n"
 
