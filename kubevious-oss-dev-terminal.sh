@@ -23,6 +23,5 @@ ttab -t "UI" -d "${REPOS_DIR}/ui.git" echo -e "\n**** KUBEVIOUS UI ****\n1) ./pr
 ttab -t "DEPENDENCIES" -d "${REPOS_DIR}/dependencies.git" echo -e "\n**** KUBEVIOUS DEPENDENCIES ****\n1) ./run-dependencies.sh\n"
 
 
-
-source ../dependencies.git/k8s/configuration.sh
+source ${REPOS_DIR}/dependencies.git/k8s/configuration.sh
 export KUBECONFIG=${K8S_CONFIG_PATH}
