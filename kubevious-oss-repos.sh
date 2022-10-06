@@ -40,6 +40,7 @@ export REPOSITORIES=(
     "helper-logic-processor"
     "kubik"
     "helper-rule-engine"
+    "mock-data"
 
     "kubevious"
     "workspace"
