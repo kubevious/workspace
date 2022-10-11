@@ -9,6 +9,7 @@ export REPOSITORIES=(
     "guard"
     "dependencies"
     "scripts"
+    "cli"
 
     "ui-framework"
     "ui-components"
