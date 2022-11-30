@@ -43,12 +43,18 @@ export REPOSITORIES=(
     "helper-rule-engine"
     "mock-data"
 
+
+    "cli-releases"
+    "homebrew-cli"
+
     "kubevious"
     "workspace"
     "rules-library"
     "demos"
 
     "portable"
+
+    "homebrew-core"
 )
 
 # echo "REPOSITORIES: ${REPOSITORIES[@]}"
