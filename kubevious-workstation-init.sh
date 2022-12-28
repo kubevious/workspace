@@ -17,3 +17,4 @@ npm install -g npm-check-updates
 
 echo "*** Install TTAB..."
 npm install -g ttab
+
