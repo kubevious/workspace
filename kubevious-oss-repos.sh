@@ -10,7 +10,7 @@ export REPOSITORIES=(
     "dependencies"
     "scripts"
     "cli"
-    "deployment-operator"
+    "workload-operator"
 
     "ui-framework"
     "ui-components"
